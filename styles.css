@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.boxContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+} 
+
+.spanContent {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 450px;
+}
+
+.peBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+
+
+.puntuacion1 {
+    display: flex;
+    margin: 20px 25px 20px 25px ;
+    padding: 30px 40px 30px 25px;
+    border: 2px  solid;
+    width: 30px;
+    height: 70px;
+} 
+.puntuacion2{
+    display: flex;
+    margin: 20px 25px 20px 25px;
+    padding: 30px 40px 30px 25px;
+    border: 2px solid;
+    width: 30px;
+    height: 70px;
+} 
+
+.puntuacion3 {
+    display: flex;
+    margin: 20px 25px 20px 25px ;
+    padding: 30px 40px 30px 25px;
+    border: 2px  solid;
+    width: 30px;
+    height: 70px;
+}
+
+.puntuacion4 {
+    display: flex;
+    margin: 20px 25px 20px 25px ;
+    padding: 30px 40px 30px 25px;
+    border: 2px  solid;
+    width: 30px;
+    height: 70px;
+}
+
+.puntuacion5 {
+    display: flex;
+    margin: 20px 25px 20px 25px ;
+    padding: 30px 40px 30px 25px;
+    border: 2px  solid;
+    width: 30px;
+    height: 70px;
+}
