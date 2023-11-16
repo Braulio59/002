@@ -4,25 +4,41 @@
     box-sizing: border-box;
 } 
 
-.boxContent {
+
+.title {
     display: flex;
     justify-content: center;
-    align-items: center
+    text-align: center;
+}
+
+.closeIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 70%;
+}
+
+.boxContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 35px 20px 35px
 } 
 
 .spanContent {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 400px;
-    height: 450px;
+    width: 200px;
+    height: 100px;
 }
 
 .peBox {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 20px;
+    width: 700px;
 }
 
 p {
@@ -35,44 +51,73 @@ p {
 
 .puntuacion1 {
     display: flex;
-    margin: 20px 25px 20px 25px ;
-    padding: 30px 40px 30px 25px;
-    border: 2px  solid;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px 40px 40px ;
+    padding: 35px 35px 35px 35px;
+    border: 1px  solid;
     width: 30px;
     height: 70px;
 } 
 .puntuacion2{
     display: flex;
-    margin: 20px 25px 20px 25px;
-    padding: 30px 40px 30px 25px;
-    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px 40px 40px ;
+    padding: 35px 35px 35px 35px;
+    border: 1px solid;
     width: 30px;
     height: 70px;
 } 
 
 .puntuacion3 {
     display: flex;
-    margin: 20px 25px 20px 25px ;
-    padding: 30px 40px 30px 25px;
-    border: 2px  solid;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px 40px 40px ;
+    padding: 35px 35px 35px 35px;
+    border: 1px  solid;
     width: 30px;
     height: 70px;
 }
 
 .puntuacion4 {
     display: flex;
-    margin: 20px 25px 20px 25px ;
-    padding: 30px 40px 30px 25px;
-    border: 2px  solid;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px 40px 40px ;
+    padding: 35px 35px 35px 35px;
+    border: 1px  solid;
     width: 30px;
     height: 70px;
 }
 
 .puntuacion5 {
     display: flex;
-    margin: 20px 25px 20px 25px ;
-    padding: 30px 40px 30px 25px;
-    border: 2px  solid;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px 40px 40px;
+    padding: 35px 35px 35px 35px;
+    border: 1px  solid;
     width: 30px;
     height: 70px;
+} 
+
+.terminos {
+    display: flex;
+    justify-content: center;
+    width: 69%; 
+    margin-top: 50px;
+} 
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 80px 80px 80px;
+} 
+
+button {
+    cursor: pointer;
 }
