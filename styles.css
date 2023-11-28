@@ -6,6 +6,14 @@
     box-sizing: border-box;
 } 
 
+:root {
+    --black: #000000;
+    --azul : #151a41;
+    --rosita: #ff0099;
+    --gris: #A7C4B5;
+    --blanco: #ffffff;
+}
+
  body {
     font-family: 'Lato', sans-serif;
     height: 100vh;
@@ -57,14 +65,15 @@
     justify-content: space-between;
     margin-top: 20px;
     margin: 20px  5px 5px 5px;
-    width: 100%;
+    width: 95%;
 } 
 
 p {
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px
+    margin-inline-end: 0px;
+    font-weight: 600;
 }
 
 
@@ -75,9 +84,34 @@ p {
     margin: 40px 10px 40px 10px;
     padding: 35px 35px 35px 35px;
     border: 1px  solid;
+    border-radius: 5px;
     width: 30px;
     height: 70px;
-} 
+    cursor: pointer;
+    transition: ease 0.5s;
+    transform: scale();
+}
+
+.puntuacion1:hover {
+    transform: scale(1.2);
+    border: none;
+    background-color: #ff0099;
+    color: #ffffff;
+    -webkit-box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+}
+
+.puntuacion2:hover {
+    transform: scale(1.2);
+    border: none;
+    background-color: #ff0099;
+    color: #ffffff;
+    -webkit-box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+}
+
 .puntuacion2{
     display: flex;
     justify-content: center;
@@ -85,9 +119,25 @@ p {
     margin: 40px 10px 40px 10px;
     padding: 35px 35px 35px 35px;
     border: 1px solid;
+    border-radius: 5px;
     width: 30px;
     height: 70px;
+    cursor: pointer;
+    background-color: (var(--blanco));
+    color: (var(--black));
+    transition: ease 0.5s;
+    transform: scale();
 } 
+
+.puntuacion2:hover {
+    transform: scale(1.2);
+    border: none;
+    background-color: #ff0099;
+    color: #ffffff;
+    -webkit-box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+}
 
 .puntuacion3 {
     display: flex;
@@ -96,8 +146,22 @@ p {
     margin: 40px 10px 40px 10px;
     padding: 35px 35px 35px 35px;
     border: 1px  solid;
+    border-radius: 5px;
     width: 30px;
     height: 70px;
+    cursor: pointer;
+    transition: ease 0.5s;
+    transform: scale();
+}
+
+.puntuacion3:hover {
+    transform: scale(1.2);
+    border: none;
+    background-color: #ff0099;
+    color: #ffffff;
+    -webkit-box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
 }
 
 .puntuacion4 {
@@ -107,8 +171,22 @@ p {
     margin: 40px 10px 40px 10px;
     padding: 35px 35px 35px 35px;
     border: 1px  solid;
+    border-radius: 5px;
     width: 30px;
     height: 70px;
+    cursor: pointer;
+    transition: ease 0.5s;
+    transform: scale();
+}
+
+.puntuacion4:hover {
+    transform: scale(1.2);
+    border: none;
+    background-color: #ff0099;
+    color: #ffffff;
+    -webkit-box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
 }
 
 .puntuacion5 {
@@ -118,23 +196,43 @@ p {
     margin: 40px 10px 40px 10px;
     padding: 35px 35px 35px 35px;
     border: 1px  solid;
+    border-radius: 5px;
     width: 30px;
     height: 70px;
+    cursor: pointer;
+    transition: ease 0.5s;
+    transform: scale();
 } 
+
+.puntuacion5:hover {
+    transform: scale(1.2);
+    border: none;
+    background-color: #ff0099;
+    color: #ffffff;
+    -webkit-box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+}
 
 .terminos {
     display: flex;
     flex-direction: row;
     width: 100%; 
     margin-top: 50px;
-} 
+    font-weight: 600;
+}  
+
+input {
+    width: 30px;
+    height: 20px;
+}
 
 .separador {
     width: 50%;
     height: 1px;
     margin-top: 50px;
     padding: 1px 1px 1px 1px;
-    background-color: black
+    background-color:var(--gris)
 }
 
 
@@ -144,6 +242,7 @@ p {
     align-items: center;
     width: 100%;
     margin-top: 50px;
+    border-radius: 10px;
 } 
 
 button {
@@ -151,4 +250,6 @@ button {
     padding: 50px 20px 50px 20px;
     width: 85%;
     cursor: pointer;
+    font-weight: 600;
+    color: #151a41;
 }
